@@ -35,9 +35,9 @@ async def _main(session_name: str) -> None:
 
     client = TelegramClient(
         session_path, api_id, api_hash,
-        device_model="iPhone 14",
-        system_version="16.5",
-        app_version="8.4.1",
+        device_model="Chatwoot Gateway",
+        system_version="Linux",
+        app_version="1.0.0",
         lang_code="en",
         system_lang_code="en-US",
     )
