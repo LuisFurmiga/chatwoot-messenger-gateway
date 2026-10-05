@@ -38,8 +38,8 @@ async def _main(session_name: str) -> None:
         device_model="Chatwoot Gateway",
         system_version="Linux",
         app_version="1.0.0",
-        lang_code="en",
-        system_lang_code="en-US",
+        lang_code="pt",
+        system_lang_code="pt-BR",
     )
 
     print(f"[auth] starting interactive login for session '{session_name}'")
